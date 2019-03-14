@@ -1,0 +1,48 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.first_div {
+    width: 200px;
+    background-color: skyblue;
+    border-radius: 4px;
+    border-color: black;  
+}
+
+.second_div {
+    width: 200px;
+    background-color: purple;
+}
+
+.third_div {
+    width: 200px;
+    background-color: yellow;
+}
+
+.fourth_div {
+    width: 200px;
+    background-color: green;
+}
+
+.fifth_div {
+    width: 200px;
+    background-color: red;
+}
+
+.sixth_div {
+    width: 200px;
+    background-color: grey;
+}
+
+.seventh_div {
+    width: 200px;
+    background-color: orange;
+}
+
+.eighth_div {
+    width: 200px;
+    background-color: olivedrab;
+    border-radius: 4px;
+    border-color: black;
+}
+    

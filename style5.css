@@ -1,0 +1,64 @@
+.nav {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    float: left;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+body {
+    border: 3px double black;
+    height: 385px;
+    width: 1260px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    color: black;
+    list-style-type: square;
+}
+
+li a {
+    color: orangered;
+}
+
+.first-section {
+    width: 1100px;
+    height: 60px;
+    border: 2px solid orange;
+    padding: 15px;
+    float: right;
+    box-sizing: border-box;
+    
+}
+
+.second-section {
+    width: 1100px;
+    height: 155px;
+    border: 2px solid orange;
+    padding: 15px;
+    float: right;
+    box-sizing: border-box;
+    
+}
+
+.third-section {
+    width: 1100px;
+    height: 60px;
+    border: 2px solid orange;
+    padding: 15px;
+    float: right;   
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 1250px;
+    height: 100px;
+    border: 2px solid green;
+    padding: 15px;  
+    box-sizing: border-box; 
+    clear: both;
+}

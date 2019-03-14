@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.link1 {
+    color: red;
+}
+.link2 {
+    color: red;
+}
+.link3 {
+    color: red;
+}
+
+
+#div1 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+#div2 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+#div3 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+#div4 {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+a {
+    color:green;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+}

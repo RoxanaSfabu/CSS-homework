@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel reservation form</title>
+        <link rel="stylesheet" type="text/css" href="style3.css">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    </head>
+   <body>
+        <h1>Travel reservation form</h1>
+        <h2>*denotes mandotory</h2>
+        <form>
+            <div class="first_div">
+                <label for="fullnume">Full Nume*:</label><br>
+                <input type="text" name="fullnume" placeholder="FirstName LastName" required>
+                <br><br>
+                <label for="email">Email address*:</label> <br>
+                <input type="email" name="emailaddress" placeholder="email_address" required>
+            </div>
+            <div class="second_div">
+                <label for="tourpackage">Select tour package*:</label><br>
+                <select name="tourpackage">
+                    <option value="goa">Goa</option>
+                    <option value="shikar">Shikar</option>
+                    <option value="japan">Japan</option>
+                    <option value="orisa">Orisa</option>
+                  </select>
+            </div>
+            <div class="third_div">   
+                <label for="arrivaldate">Arrival date*:</label><br>
+                <input type="date" id="arrivaldate" name="arrivaldate" placeholder="arrivaldate" required>
+            </div>
+            <div class="fourth_div">
+                <label for="numberofpersons">Number of persons*:</label><br>
+                <input type="number" name="numberofpersons">
+            </div>
+            <div class="fifth_div">
+                <label for="whatwouldyouwanttoavail">What would you want to avail?*:</label><br> 
+                Boarding <input name="boarding" type="checkbox" required><br>
+                Fooding <input name="fooding" type="checkbox"><br>
+                Sight seeing<input name="sight seeing" type="checkbox"><br>
+            </div>
+            <div class="sixth_div">  
+                <label for="discountcuponcode">Discount cupon code:</label><br>
+                <input type="number" name="discountcuponcode">
+            </div>
+            <div class="seventh_div"> 
+                <label for="termsandconditions">Terms and conditions*:</label><br> 
+                <input type="radio"  value="iagree" required>I agree<br>
+                <input type="radio"  value="idisagree">I disagree<br>
+            </div>
+            <div class="eighth_div">
+                <input type="submit" value="Complete reservation">
+            </div>
+        </form>  
+    </body>
+</html>   
+
+            
+
